@@ -15,7 +15,7 @@ class PersonAdmin(admin.ModelAdmin):
     # Добавляем возможность фильтрации по дате
     list_filter = ('salary',)
 
-# При регистрации модели Post источником конфигурации для неё назначаем
+# При регистрации модели Person источником конфигурации для неё назначаем
 # класс PersonAdmin
 admin.site.register(Person, PersonAdmin)
 
